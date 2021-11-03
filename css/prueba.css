@@ -1,0 +1,71 @@
+.fondonegro {
+  background-color: black;
+  background-image: linear-gradient(to top, #047a1e, black); }
+  .fondonegro .logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+    .fondonegro .logo .parrafonaranja {
+      color: coral; }
+      .fondonegro .logo .parrafonaranja h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        letter-spacing: 7px;
+        color: blueviolet;
+        text-align: center;
+        letter-spacing: 4px; }
+        .fondonegro .logo .parrafonaranja h1 .logo:hover {
+          transform: translate(8px, 8px);
+          transition-duration: 1s; }
+
+.navegacionprincipal {
+  font-family: 'Montserrat', sans-serif;
+  color: blueviolet;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: coral;
+  border-style: solid; }
+
+.redesociales {
+  display: flex;
+  justify-content: center; }
+
+nav ul li a:hover {
+  color: blueviolet; }
+
+.spotify {
+  display: flex;
+  flex-direction: column; }
+
+h2 {
+  color: coral; }
+
+.parrafonaranja {
+  color: coral; }
+
+#entradas {
+  color: coral;
+  font-size: 25px;
+  list-style-type: upper-latin; }
+
+a {
+  text-decoration: none; }
+
+.publicidad {
+  display: inline;
+  position: absolute;
+  top: 7cm;
+  right: 0.2cm; }
+
+@media only screen and (min-width: 512px) {
+  .fondonegro {
+    grid-template-columns: 1fr 1fr; } }
+
+@media only screen and (min-width: 512px) and (max-width: 768px) {
+  .fondonegro {
+    grid-template-columns: 1fr 1fr; } }
+
+@media only screen and (min-width: 512px) and (max-width: 512px) {
+  .fondonegro {
+    grid-template-columns: 1fr 1fr; } }

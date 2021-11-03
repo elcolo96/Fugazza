@@ -1,0 +1,86 @@
+.fondonegro{
+    background-color: black;
+    background-image: linear-gradient(to top, rgb(4, 122, 30), black);
+    
+
+.logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+.parrafonaranja{
+    color: coral;
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    letter-spacing: 7px;
+    color: blueviolet;
+    text-align: center;
+    letter-spacing: 4px;
+
+.logo:hover{
+    transform: translate(8px,8px);
+    transition-duration: 1s;
+}
+}
+}
+}
+}
+
+.navegacionprincipal
+{
+    font-family: 'Montserrat', sans-serif;
+    color: blueviolet;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: coral ;
+    border-style: solid;
+}
+
+.redesociales{
+    display: flex;
+    justify-content: center;
+    }
+
+nav{
+ul{
+li{ 
+a:hover{
+    color: blueviolet;
+}
+}
+}
+}
+
+.spotify{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: coral;
+}
+.parrafonaranja{
+    color: coral;
+    
+}
+
+
+#entradas{color: coral;
+    font-size: 25px;
+    list-style-type: upper-latin;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.publicidad{
+display: inline;
+position: absolute;
+top: 7cm; 
+right: 0.2cm;
+}
